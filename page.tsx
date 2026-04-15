@@ -363,9 +363,9 @@ const uploadToCloudinary = async (file: File) => {
   formData.append("file", file);
 
   const res = await fetch("http://158.220.108.252:4000/upload", {
-    method: "POST",
-    body: formData,
-  });
+  method: "POST",
+  body: formData,
+});
 
   if (!res.ok) {
     throw new Error("Upload başarısız");
