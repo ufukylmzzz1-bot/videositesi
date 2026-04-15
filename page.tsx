@@ -1,5 +1,5 @@
 "use client";
-
+<h1 style={{ color: "red", fontSize: "40px" }}>TEST 123</h1>
 import { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Dancing_Script } from "next/font/google";
