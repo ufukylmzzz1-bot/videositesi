@@ -32,7 +32,7 @@ app.post("/upload", upload.single("file"), (req, res) => {
   }
 
   res.json({
-    url: `https://upload.1tanga.com/uploads/${req.file.filename}`,
+    url: `https://upload.tanga.com/uploads/${req.file.filename}`,
   });
 });
 
