@@ -362,7 +362,7 @@ const uploadToCloudinary = async (file: File) => {
   const formData = new FormData();
   formData.append("file", file);
 
-  const res = await fetch("http://158.220.108.252:4000/upload", {
+  const res = await fetch("https://upload.1tanga.com/upload", {
   method: "POST",
   body: formData,
 });
